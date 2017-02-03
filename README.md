@@ -22,6 +22,9 @@ After running the extension as explained above, press `F5` in a seperate instanc
 Run `npm run compile` from the client and server directories depending on which files changed, or use the build tasks (from command palette or ctrl+shift+b) to start the build tasks in "watch" mode which will build changes as files change.
 
 ## Testing the extension
+
+Note both `fast-tags` and `hasktags` must be installed to run certain tests.
+
 ### Mocha test runner via npm
 `npm test` from the server directory will run tests against the most recently compiled version of the code. The test command does NOT currently build the application.
 `npm run tslint` from the server and client directories will run tslint. tslint must pass for the build to pass.
